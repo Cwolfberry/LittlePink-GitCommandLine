@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0294972573E91A00C51956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0294962573E91A00C51956 /* AppDelegate.swift */; };
+		3D0294992573E91A00C51956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0294982573E91A00C51956 /* SceneDelegate.swift */; };
+		3D02949B2573E91A00C51956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D02949A2573E91A00C51956 /* ViewController.swift */; };
+		3D02949E2573E91A00C51956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D02949C2573E91A00C51956 /* Main.storyboard */; };
+		3D0294A02573E91A00C51956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D02949F2573E91A00C51956 /* Assets.xcassets */; };
+		3D0294A32573E91A00C51956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0294A12573E91A00C51956 /* LaunchScreen.storyboard */; };
+		3D0294AE2573E91B00C51956 /* LittlePink_GitCommandLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0294AD2573E91B00C51956 /* LittlePink_GitCommandLineTests.swift */; };
+		3D0294B92573E91B00C51956 /* LittlePink_GitCommandLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0294B82573E91B00C51956 /* LittlePink_GitCommandLineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0294AA2573E91B00C51956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D02948B2573E91A00C51956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0294922573E91A00C51956;
+			remoteInfo = "LittlePink-GitCommandLine";
+		};
+		3D0294B52573E91B00C51956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D02948B2573E91A00C51956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0294922573E91A00C51956;
+			remoteInfo = "LittlePink-GitCommandLine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0294932573E91A00C51956 /* LittlePink-GitCommandLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-GitCommandLine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0294962573E91A00C51956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D0294982573E91A00C51956 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D02949A2573E91A00C51956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D02949D2573E91A00C51956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D02949F2573E91A00C51956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D0294A22573E91A00C51956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0294A42573E91A00C51956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0294A92573E91B00C51956 /* LittlePink-GitCommandLineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittlePink-GitCommandLineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0294AD2573E91B00C51956 /* LittlePink_GitCommandLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePink_GitCommandLineTests.swift; sourceTree = "<group>"; };
+		3D0294AF2573E91B00C51956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0294B42573E91B00C51956 /* LittlePink-GitCommandLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LittlePink-GitCommandLineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0294B82573E91B00C51956 /* LittlePink_GitCommandLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePink_GitCommandLineUITests.swift; sourceTree = "<group>"; };
+		3D0294BA2573E91B00C51956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0294902573E91A00C51956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0294A62573E91B00C51956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0294B12573E91B00C51956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D02948A2573E91A00C51956 = {
+			isa = PBXGroup;
+			children = (
+				3D0294952573E91A00C51956 /* LittlePink-GitCommandLine */,
+				3D0294AC2573E91B00C51956 /* LittlePink-GitCommandLineTests */,
+				3D0294B72573E91B00C51956 /* LittlePink-GitCommandLineUITests */,
+				3D0294942573E91A00C51956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0294942573E91A00C51956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0294932573E91A00C51956 /* LittlePink-GitCommandLine.app */,
+				3D0294A92573E91B00C51956 /* LittlePink-GitCommandLineTests.xctest */,
+				3D0294B42573E91B00C51956 /* LittlePink-GitCommandLineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0294952573E91A00C51956 /* LittlePink-GitCommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				3D0294962573E91A00C51956 /* AppDelegate.swift */,
+				3D0294982573E91A00C51956 /* SceneDelegate.swift */,
+				3D02949A2573E91A00C51956 /* ViewController.swift */,
+				3D02949C2573E91A00C51956 /* Main.storyboard */,
+				3D02949F2573E91A00C51956 /* Assets.xcassets */,
+				3D0294A12573E91A00C51956 /* LaunchScreen.storyboard */,
+				3D0294A42573E91A00C51956 /* Info.plist */,
+			);
+			path = "LittlePink-GitCommandLine";
+			sourceTree = "<group>";
+		};
+		3D0294AC2573E91B00C51956 /* LittlePink-GitCommandLineTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0294AD2573E91B00C51956 /* LittlePink_GitCommandLineTests.swift */,
+				3D0294AF2573E91B00C51956 /* Info.plist */,
+			);
+			path = "LittlePink-GitCommandLineTests";
+			sourceTree = "<group>";
+		};
+		3D0294B72573E91B00C51956 /* LittlePink-GitCommandLineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0294B82573E91B00C51956 /* LittlePink_GitCommandLineUITests.swift */,
+				3D0294BA2573E91B00C51956 /* Info.plist */,
+			);
+			path = "LittlePink-GitCommandLineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0294922573E91A00C51956 /* LittlePink-GitCommandLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0294BD2573E91B00C51956 /* Build configuration list for PBXNativeTarget "LittlePink-GitCommandLine" */;
+			buildPhases = (
+				3D02948F2573E91A00C51956 /* Sources */,
+				3D0294902573E91A00C51956 /* Frameworks */,
+				3D0294912573E91A00C51956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LittlePink-GitCommandLine";
+			productName = "LittlePink-GitCommandLine";
+			productReference = 3D0294932573E91A00C51956 /* LittlePink-GitCommandLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0294A82573E91B00C51956 /* LittlePink-GitCommandLineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0294C02573E91B00C51956 /* Build configuration list for PBXNativeTarget "LittlePink-GitCommandLineTests" */;
+			buildPhases = (
+				3D0294A52573E91B00C51956 /* Sources */,
+				3D0294A62573E91B00C51956 /* Frameworks */,
+				3D0294A72573E91B00C51956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0294AB2573E91B00C51956 /* PBXTargetDependency */,
+			);
+			name = "LittlePink-GitCommandLineTests";
+			productName = "LittlePink-GitCommandLineTests";
+			productReference = 3D0294A92573E91B00C51956 /* LittlePink-GitCommandLineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D0294B32573E91B00C51956 /* LittlePink-GitCommandLineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0294C32573E91B00C51956 /* Build configuration list for PBXNativeTarget "LittlePink-GitCommandLineUITests" */;
+			buildPhases = (
+				3D0294B02573E91B00C51956 /* Sources */,
+				3D0294B12573E91B00C51956 /* Frameworks */,
+				3D0294B22573E91B00C51956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0294B62573E91B00C51956 /* PBXTargetDependency */,
+			);
+			name = "LittlePink-GitCommandLineUITests";
+			productName = "LittlePink-GitCommandLineUITests";
+			productReference = 3D0294B42573E91B00C51956 /* LittlePink-GitCommandLineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D02948B2573E91A00C51956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3D0294922573E91A00C51956 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3D0294A82573E91B00C51956 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3D0294922573E91A00C51956;
+					};
+					3D0294B32573E91B00C51956 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3D0294922573E91A00C51956;
+					};
+				};
+			};
+			buildConfigurationList = 3D02948E2573E91A00C51956 /* Build configuration list for PBXProject "LittlePink-GitCommandLine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D02948A2573E91A00C51956;
+			productRefGroup = 3D0294942573E91A00C51956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0294922573E91A00C51956 /* LittlePink-GitCommandLine */,
+				3D0294A82573E91B00C51956 /* LittlePink-GitCommandLineTests */,
+				3D0294B32573E91B00C51956 /* LittlePink-GitCommandLineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0294912573E91A00C51956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0294A32573E91A00C51956 /* LaunchScreen.storyboard in Resources */,
+				3D0294A02573E91A00C51956 /* Assets.xcassets in Resources */,
+				3D02949E2573E91A00C51956 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0294A72573E91B00C51956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0294B22573E91B00C51956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D02948F2573E91A00C51956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D02949B2573E91A00C51956 /* ViewController.swift in Sources */,
+				3D0294972573E91A00C51956 /* AppDelegate.swift in Sources */,
+				3D0294992573E91A00C51956 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0294A52573E91B00C51956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0294AE2573E91B00C51956 /* LittlePink_GitCommandLineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0294B02573E91B00C51956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0294B92573E91B00C51956 /* LittlePink_GitCommandLineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0294AB2573E91B00C51956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0294922573E91A00C51956 /* LittlePink-GitCommandLine */;
+			targetProxy = 3D0294AA2573E91B00C51956 /* PBXContainerItemProxy */;
+		};
+		3D0294B62573E91B00C51956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0294922573E91A00C51956 /* LittlePink-GitCommandLine */;
+			targetProxy = 3D0294B52573E91B00C51956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D02949C2573E91A00C51956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D02949D2573E91A00C51956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D0294A12573E91A00C51956 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D0294A22573E91A00C51956 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D0294BB2573E91B00C51956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D0294BC2573E91B00C51956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0294BE2573E91B00C51956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				INFOPLIST_FILE = "LittlePink-GitCommandLine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxdz.LittlePink-GitCommandLine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D0294BF2573E91B00C51956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				INFOPLIST_FILE = "LittlePink-GitCommandLine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxdz.LittlePink-GitCommandLine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D0294C12573E91B00C51956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				INFOPLIST_FILE = "LittlePink-GitCommandLineTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxdz.LittlePink-GitCommandLineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittlePink-GitCommandLine.app/LittlePink-GitCommandLine";
+			};
+			name = Debug;
+		};
+		3D0294C22573E91B00C51956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				INFOPLIST_FILE = "LittlePink-GitCommandLineTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxdz.LittlePink-GitCommandLineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittlePink-GitCommandLine.app/LittlePink-GitCommandLine";
+			};
+			name = Release;
+		};
+		3D0294C42573E91B00C51956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				INFOPLIST_FILE = "LittlePink-GitCommandLineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxdz.LittlePink-GitCommandLineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LittlePink-GitCommandLine";
+			};
+			name = Debug;
+		};
+		3D0294C52573E91B00C51956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				INFOPLIST_FILE = "LittlePink-GitCommandLineUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxdz.LittlePink-GitCommandLineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LittlePink-GitCommandLine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D02948E2573E91A00C51956 /* Build configuration list for PBXProject "LittlePink-GitCommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0294BB2573E91B00C51956 /* Debug */,
+				3D0294BC2573E91B00C51956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0294BD2573E91B00C51956 /* Build configuration list for PBXNativeTarget "LittlePink-GitCommandLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0294BE2573E91B00C51956 /* Debug */,
+				3D0294BF2573E91B00C51956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0294C02573E91B00C51956 /* Build configuration list for PBXNativeTarget "LittlePink-GitCommandLineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0294C12573E91B00C51956 /* Debug */,
+				3D0294C22573E91B00C51956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0294C32573E91B00C51956 /* Build configuration list for PBXNativeTarget "LittlePink-GitCommandLineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0294C42573E91B00C51956 /* Debug */,
+				3D0294C52573E91B00C51956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D02948B2573E91A00C51956 /* Project object */;
+}
